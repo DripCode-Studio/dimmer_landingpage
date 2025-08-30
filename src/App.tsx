@@ -1,5 +1,6 @@
 import Navbar from "@/components/common/Navbar";
 import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -8,9 +9,7 @@ function App() {
       <main className="flex-1">
         <Hero />
       </main>
-      <footer className="bg-gray-800 mt-auto text-white p-4 text-center">
-        &copy; {new Date().getFullYear()} DIMMER. All rights reserved.
-      </footer>
+      <Footer />
     </div>
   );
 }
