@@ -50,7 +50,7 @@ function About() {
   return (
     <section
       id="about"
-      className="max-w-6xl mx-auto px-6 py-14 flex flex-col md:flex-row gap-x-6"
+      className="max-w-6xl mx-auto px-6 py-5 flex flex-col md:flex-row gap-x-6"
     >
       <div className="w-full md:w-[50%] flex flex-col gap-4 justify-center">
         <h1 className="scroll-m-20  text-3xl md:text-5xl font-extrabold tracking-tight text-balance">

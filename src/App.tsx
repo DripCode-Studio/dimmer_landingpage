@@ -1,6 +1,7 @@
 import Navbar from "@/components/common/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Gallery from "./components/Gallery";
 import Features from "./components/Features";
 import Faq from "./components/Faq";
 import Contact from "./components/Contact";
@@ -13,6 +14,7 @@ function App() {
       <main className="flex-1">
         <Hero />
         <About />
+        <Gallery />
         <Features />
         <Faq />
         <Contact />
