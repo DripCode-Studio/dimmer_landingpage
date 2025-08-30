@@ -1,5 +1,9 @@
 import Navbar from "@/components/common/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
+import Features from "./components/Features";
+import Faq from "./components/Faq";
+import Contact from "./components/Contact";
 import Footer from "./components/common/Footer";
 
 function App() {
@@ -8,6 +12,10 @@ function App() {
       <Navbar />
       <main className="flex-1">
         <Hero />
+        <About />
+        <Features />
+        <Faq />
+        <Contact />
       </main>
       <Footer />
     </div>

@@ -11,7 +11,7 @@ function Footer() {
             <div className="flex items-center mb-4">
               <Music className="w-8 h-8 text-purple-400 mr-2" />
               <a href="#">
-                <span className="text-2xl font-bold text-white">DIMMER</span>
+                <span className="text-2xl font-bold text-white">Dimmer</span>
               </a>
             </div>
             <p className="text-gray-400 mb-4">
@@ -33,7 +33,7 @@ function Footer() {
                 <Twitter className="w-6 h-6" />
               </a>
               <a
-                href="https://x.com/YBTopaz8"
+                href="https://www.linkedin.com/in/yvan-brunel-a5257816b/"
                 target="_blank"
                 className="social-icon text-purple-400 hover:text-pink-400 transition-colors"
               >
@@ -101,12 +101,12 @@ function Footer() {
                   target="_blank"
                   className="hover:text-purple-400 transition-colors"
                 >
-                  Contact Us
+                  Contact Me
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/YBTopaz8/Dimmer-MAUI/issues"
+                  href="https://github.com/YBTopaz8/Dimmer-MAUI/issues/new"
                   target="_blank"
                   className="hover:text-purple-400 transition-colors"
                 >
@@ -157,6 +157,13 @@ function Footer() {
             reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
+            <a
+              href="https://github.com/YBTopaz8/Dimmer-MAUI"
+              target="_blank"
+              className="hover:text-purple-400 transition-colors"
+            >
+              Contribute
+            </a>
             <a
               href="https://github.com/YBTopaz8/Dimmer-MAUI?tab=MIT-1-ov-file"
               target="_blank"

@@ -17,8 +17,8 @@ const Navbar = () => {
 
   const navItems = [
     { href: "#home", label: "Home" },
+    { href: "#about", label: "About" },
     { href: "#features", label: "Features" },
-    { href: "#download", label: "Download" },
     { href: "#faq", label: "FAQ" },
     { href: "#contact", label: "Contact" },
   ];
@@ -55,7 +55,7 @@ const Navbar = () => {
                   isScrolled ? "text-primary" : "text-white"
                 }`}
               >
-                DIMMER
+                Dimmer
               </span>
             </a>
           </div>

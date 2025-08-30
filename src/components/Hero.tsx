@@ -97,9 +97,9 @@ const Hero: React.FC = () => {
           </div>
         </div> */}
       </div>
-      <div className="absolute -bottom-20 md:-bottom-30 ">
+      {/* <div className="absolute -bottom-20 md:-bottom-30 ">
         <img src="/hero-image.jpeg" alt="App preview on all devices" />
-      </div>
+      </div> */}
     </section>
   );
 };
