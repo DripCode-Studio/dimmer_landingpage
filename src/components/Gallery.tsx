@@ -36,7 +36,7 @@ function Gallery() {
               <img
                 alt="gallery"
                 className="w-full h-full object-cover object-center block"
-                src="/public/screenshots/desktop/LyricsSearchResult2_D.png"
+                src="/screenshots/desktop/LyricsSearchResult2_D.png"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2">
