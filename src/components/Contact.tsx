@@ -1,5 +1,3 @@
-import React from "react";
-
 function Contact() {
   return (
     <section id="contact" className="max-w-5xl mx-auto px-6 py-10">

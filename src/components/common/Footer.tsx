@@ -1,4 +1,3 @@
-import React from "react";
 import { Music, Mail, Twitter, Github, Linkedin } from "lucide-react";
 
 function Footer() {
