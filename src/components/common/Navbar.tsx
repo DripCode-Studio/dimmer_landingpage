@@ -16,7 +16,7 @@ const Navbar = () => {
   }, []);
 
   const navItems = [
-    { href: "#home", label: "Home" },
+    { href: "https://dimmer-maui.vercel.app/", label: "Home" },
     { href: "#about", label: "About" },
     { href: "#features", label: "Features" },
     { href: "#faq", label: "FAQ" },
@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0 ">
             <a
-              href="/"
+              href="https://dimmer-maui.vercel.app/"
               onClick={() => setIsMenuOpen(false)}
               className="flex items-center gap-x-0.5"
             >

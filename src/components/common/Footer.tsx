@@ -9,7 +9,7 @@ function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <Music className="w-8 h-8 text-purple-400 mr-2" />
-              <a href="#">
+              <a href="https://dimmer-maui.vercel.app/">
                 <span className="text-2xl font-bold text-white">Dimmer</span>
               </a>
             </div>
