@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Download, Music, Headphones } from "lucide-react";
 import gsap from "gsap";
+import GitHubRepoBadge from "./GitHubRepoBadge";
 
 const Hero: React.FC = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -59,9 +60,12 @@ const Hero: React.FC = () => {
       </div>
       {/* Hero Content */}
       <div className="relative z-90 text-center max-w-6xl mx-auto px-6">
-        <p className="hero-subtitle text-3xl md:text-6xl text-gray-200 font-semibold mb-6  mx-auto leading-relaxed ">
+        <p className="hero-subtitle text-4xl md:text-7xl text-white font-semibold mb-6  mx-auto leading-relaxed ">
           Dimmer: Your Music, <br /> Your Stats, Your Way
         </p>
+        <div className="flex items-center justify-center mb-8">
+          <GitHubRepoBadge owner="YBTopaz8" repo="Dimmer-MAUI" />
+        </div>
 
         <div className="hero-buttons flex flex-col sm:flex-row gap-6 justify-center items-center">
           <Button
@@ -87,6 +91,7 @@ const Hero: React.FC = () => {
             Download for Windows
           </Button> */}
         </div>
+        <div className="hero-buttons flex flex-col sm:flex-row gap-6 justify-center items-center"></div>
         {/* <div className="relative flex justify-center items-center w-full">
           <div className="  p-4 md:p-8 flex flex-col items-center w-full max-w-md mx-auto">
             <img
